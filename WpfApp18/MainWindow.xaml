@@ -15,5 +15,9 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+   
+   <Button Content="Add" Grid.Column="1"/>
+        <Button Content="Edit" Grid.Column="2"/>
+        <Button Content="Delete" Grid.Column="1" Grid.Row="1"/>
     </Grid>
 </Window>
