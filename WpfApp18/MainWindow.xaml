@@ -7,10 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
-
-
-        <Button Content="Add" Grid.Column="1"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+   
+   <Button Content="Add" Grid.Column="1"/>
         <Button Content="Edit" Grid.Column="2"/>
         <Button Content="Delete" Grid.Column="1" Grid.Row="1"/>
     </Grid>
